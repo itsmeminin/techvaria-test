@@ -1,0 +1,305 @@
+body{font-family: 'Open Sans', sans-serif;}
+h1,h2,h3,h4{font-family: 'Montserrat', sans-serif;}
+h4{color: #fff;}
+p{font-family: 'Open Sans', sans-serif;
+color:#fff; }
+.container-fluid{background-color: #fff;}
+
+h1{font-size: 46px;}
+h1 strong {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.5;
+}
+label{color: #fff;font-family: 'Open Sans', sans-serif;font-weight: 100;}
+.row {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn{padding: 10px 12px;font-size: 17px;color: #fff;}
+
+.navbar.navbar-default.navbar-fixed-top{
+	background-color: #ffffff!important;
+}
+
+.navbar-fixed-top {
+	padding-bottom: 15px;
+	padding-top: 4px;
+}
+.navbar-nav {
+    float: right;
+    margin-top: 23px;
+}
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover
+  {background-color:white;
+  	color:#034361;  
+  }
+
+.navbar-default .navbar-nav > li > a {
+    color: #034361;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img,
+ .img-responsive, .thumbnail a > img, .thumbnail > img{max-width: 100%;width:100%;}
+.carousel-inner{padding-left: 0;padding-right: 0;}
+.carousel-caption {
+    right: 9%;
+    left: 9%;
+	bottom: 16%;
+    padding-bottom: 30px;
+    background-size: 100%;
+    border: 3px solid #c46428;
+ 	border-image: linear-gradient(270deg,#034361 0,#c46428 100%) 2 2 2 2;
+  	background-image: url('../images/textBg.png');
+
+}
+.carousel-caption .btn{margin-top: 5%;
+color: #fff;}
+.btn_blue{background-color:#034361;margin-right: 5%;}
+.btn_orrange{background-color:#c46428;}
+.service{height: 400px;margin-top: 30px;}
+.service h4, .service p{color: #000; padding: 15px;}
+.service > div{border: 1px solid #b7b7b7;height: 100%;background-color: #f8f6f6;}
+#ourServices hr{margin-top: 4px;margin-bottom: 0px;border: 4px solid #c46428;width: 4%;position: absolute;left: 16px;border-radius: 2px;}
+#aboutUs hr{margin-top: 4px;margin-bottom: 0px;border: 4px solid #c46428;width: 4%;position: absolute;left: 16px;border-radius: 2px;}
+.clientsHeading{text-align: center;}
+.clientsHeading hr{margin-top: 4px;margin-bottom: 0px;border: 4px solid #c46428;width: 4%;border-radius: 2px;}
+#aboutUs{background-image: url("../images/about-us-image.jpg");background-size: 100%; background-repeat: no-repeat;}
+
+#aboutUs button{color: #fff;}
+#aboutUs h2, #requestCall h2{color: #fff;}
+#aboutUsText p{margin-top: 10%;
+margin-bottom: 10%;}
+#aboutUsText {margin-bottom: 5%;}
+
+#w{display: block;}
+#x{display: none;}
+#requestCall{background-color: #034361;padding-top: 5%;padding-bottom: 5%}
+#requestCall p{color: #cdced0;width: 70%;margin-top: 8%;}
+#requestCall hr{margin-top: 4px;margin-bottom: 0px;border: 4px solid #c46428;width: 7%;position: absolute;left: 16px;border-radius: 2px;}
+.form-group {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 15%;
+    margin-bottom: 31px;
+}
+
+#footer{background-color: #222222;padding-top: 3%;padding-bottom: 5%;}
+#footer h4{font-size: 18px;margin-top: 26px;margin-bottom: 26px;}
+#section1 p{margin-top: 8%;margin-bottom: 8%;}
+#section1 :nth-child(4) {font-size: 22px;color: #c46428;}
+#section1 :nth-child(6) {color: #fff;padding: 40px;}
+#section2 ul li{list-style-type: none;margin-top: 10%;}
+#section2 ul li a{color: #fff;}
+#section2 ul li a span{padding-left: 4px;}
+#section2 ul{padding-left: 0;}
+#section3 ul li{list-style-type: none;margin-top: 3%;}
+#section3 ul li a{color: #fff;}
+#section3 ul{padding-left: 0;}
+#section1{padding-right: 10%;}
+#section2{padding-right: 10%;}
+#section3{padding-right: 5%;}
+.icon{width:32px;}
+#logo2 {
+    width: 40%;
+}
+.service:hover{padding: 0; -webkit-transition: all 0.35s ease;transition: all 0.35s ease;}
+.service:hover.service > div{border: 3px solid #c46428; -webkit-transition: all 0.35s ease;transition: all 0.35s ease;}
+.menu-dropdown{display: none;background-color: green;}
+
+		/* Mega Menu */
+
+.menu-large {
+    position: static !important;
+}
+.megamenu{
+    padding: 20px 0px;
+    width:100%;
+    background-color: rgba(3,67,97,0.8);
+    margin-top: 19px!important;
+}
+.navbar-nav > li > .dropdown-menu
+.megamenu> li > ul {
+    padding: 0;
+    margin: 0;
+}
+.megamenu> li > ul > li {
+    list-style: none;
+}
+.megamenu> li > ul > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333333;
+    white-space: normal;
+}
+
+.megamenu.disabled > a,
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+    color: #999999;
+}
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    cursor: not-allowed;
+}
+.megamenu.dropdown-header {
+    color: #428bca;
+    font-size: 18px;
+}
+.dropdown > .row{padding-right: 20%;padding-left: 20%;}
+.snip1135 {
+  text-align: center;
+  font-weight: 500;
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 > li {
+  display: inline-block;
+  list-style: outside none none;
+  padding: 0;
+  background-color: transparent;
+}
+.snip1135 > li a {
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 > li a:before,
+.snip1135 > li a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 > li a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #c46428;
+}
+.snip1135 > li a:hover:before,
+.snip1135 .current > a:before {
+  opacity: 1;
+  width: 68%;
+  content: "";
+  background-color: #c46428;
+}
+
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 90%;
+}
+.dropdown-menu > li > a:hover{background-color: transparent!important;}
+.dropdown-menu > li:hover{background-color: transparent!important;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus,
+ .navbar-default .navbar-nav > .open > a:hover{background-color: transparent;}
+ .snip1135 .current > li a:focus {
+  opacity: 1;
+  width: 68%;
+  content: "";
+  background-color: #c46428;
+}
+
+.megamenu img{width:100px; }
+/**********@media Queries***************@media Queries*******************@media Queries***********@media Queries********@media Queries**************/
+
+/*********************************Large devices- desktop********************************/
+@media (min-width: 1367px){
+
+h1 {
+    font-size: 48px;}
+
+/*******/
+}
+/****************************************End of Query************************************/
+
+
+/*********************************Medium devices- laptops and small desktops********************************/
+@media only screen and (min-width: 992px) and (max-width: 1366px){
+
+
+#w{display: block;}
+#x{display: none;}
+/*******/
+}
+/****************************************End of Query************************************/
+
+
+/*********************************Small devices- Tablets********************************/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+.nav > li > a{padding: 10px 12px;}
+.snip1135 > li a{letter-spacing: 0px;}
+
+ .carousel {
+    margin-top: 14%;
+}
+h1 {
+    font-size: 30px;}
+h1 strong {
+    font-size: 33px;
+}
+ h2 {
+    font-size: 27px;margin-top: 0;
+}
+.carousel-caption .btn{margin-top: 0;
+font-size: 13px;}
+h1{margin-top: 0;
+margin-bottom: 0;}
+
+.carousel-caption {
+    bottom: 14%;
+    padding-bottom: 23px;
+}
+.btn_blue{margin-right: 1%;}
+
+#w{display: block;}
+#x{display: none;}
+.megamenu img{width:80px; }
+.dropdown > .row{padding-right: 5%;padding-left: 0;}
+#aboutUs {background-size: 107%;}
+#aboutUsText p {
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+body{font-size: 13px;}
+.btn {font-size: 14px;color: #fff;}
+/*******/
+}
+/****************************************End of Query************************************/
+
+
+/*********************************Extra small devices-mobiles********************************/
+@media only screen and (min-width: 641px) and (max-width: 767px){
+
+#w{display: none;}
+#x{display: block;}
+
+/*******/
+}
+/****************************************End of Query************************************/
+
+
+/*********************************Extra small devices-small mobiles********************************/
+@media only screen and (min-width: 300px) and (max-width: 640px){
+
+#w{display: none;}
+#x{display: block;}
+
+/*******/
+}
+/****************************************End of Query************************************/
