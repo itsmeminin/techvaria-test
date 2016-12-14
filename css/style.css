@@ -311,7 +311,7 @@ button.snip0047.blue {
 #aboutVideo p{color: #000;text-align: justify;}
 #embededVideo{width:40%;padding-right: 6px;border-right: 3px solid #034361;float:left;box-sizing: border-box;}
 #embededVideoText{width:60%;float:left;box-sizing: border-box;padding-left: 15px;}
-#aboutVideo button{width:100%;border-radius: 0;margin-top: 8%;margin-bottom: 6%;}
+#aboutVideo button, #serviceSideTab button{width:100%;border-radius: 0;margin-top: 8%;margin-bottom: 6%;}
 #aboutVideo h4{color: #000;}
 #Download{border: 1px solid black;padding: 30px;}
 .photo{box-sizing: border-box;padding-top: 25px; }
@@ -329,8 +329,16 @@ button.snip0047.blue {
 .nav-pills li a{color: #000;background-color: #f0f0f0;border-radius: 0;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus,
  .nav-pills > li.active > a:hover{background-color: #f0f0f0;border-left:3px solid #034361;border-radius: 0;color: #000;}
- #sec1, #sec2, #sec3, #sec4, #sec5, #sec6{padding-left: 10%;}
+ #sec1, #sec2, #sec3, #sec4, #sec5, #sec6{padding-left: 10%;-webkit-transition: all 1s;transition: all 1s;}
  .tab-pane h4, .tab-pane p{color: #000;}
+ #serviceSideTab{margin-top: 20px;}
+ .tab-pane h4{margin-top: 30px;}
+ #serviceSideTab #Download{margin-top: 40px;}
+ #Download h4, #Download p{color: #000;}
+ #Download p{text-align: justify;}
+
+ #mobilityList li{list-style-type: none;}
+ #mobilityList li .fa{margin-left: -20px;color: #034361;}
 /************************************************************Services Page*************************************************************/
 
 
