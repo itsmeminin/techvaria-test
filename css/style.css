@@ -402,7 +402,7 @@ margin-bottom: 0;}
 #w{display: block;}
 #x{display: none;}
 .megamenu img{width:80px; }
-.dropdown > .row{padding-right: 5%;padding-left: 0;}
+.dropdown > .row{padding-right: 0%;padding-left: 0;}
 #embededVideo{width:100%;border-right: 0px solid #034361;}
 #embededVideoText{width:100%;padding-left: 0px;padding-top: 15px;}
 #aboutUs {background-size: 107%;}
@@ -437,6 +437,8 @@ label{font-size: 11px;}
 .navbar-nav {
     float: left;
     margin-left: 3%;}
+
+.megamenu li a .fa {font-size: 32px;}
 /*******/
 }
 
