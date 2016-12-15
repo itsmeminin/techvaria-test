@@ -637,6 +637,8 @@ button.snip0047.blue {
 
 #nav1{display: block;}
 #nav2{display: none;}
+.pdf1{display: block;}
+.pdf2{display: none;}
 
 /**********@media Queries***************@media Queries*******************@media Queries***********@media Queries********@media Queries**************/
 
@@ -733,6 +735,8 @@ label{font-size: 11px;}
 .megamenu li a .fa {font-size: 32px;}
 #nav1{display: block;}
 #nav2{display: none;}
+.pdf1{display: block;}
+.pdf2{display: none;}
 /*******/
 }
 
@@ -852,6 +856,10 @@ h2 {font-size: 28px;}
 
 #nav2 .dropdown-menu li a{padding: 4px 4px 7px 3px;border: 1px solid #c46428;font-size: 13px;}
 #nav2 .dropdown-menu{width:78%;background-color: transparent;margin-left: 39px;}
+.pdf1{display: none;}
+.pdf2{display: block;}
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6 {
+    padding-left: 0%;padding-top: 15px;}
 /*******/
 }
 /****************************************End of Query************************************/
