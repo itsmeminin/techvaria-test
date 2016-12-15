@@ -557,7 +557,7 @@ button.snip0047.blue {
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: #f0f0f0;
+  background-color: #000;
 }
 .hamburger.is-closed .hamb-top { 
   top: 5px; 
