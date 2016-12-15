@@ -342,6 +342,22 @@ button.snip0047.blue {
 
  #mobilityList li{list-style-type: none;}
  #mobilityList li .fa{margin-left: -20px;color: #034361;}
+ #a1 div, #a2 div{width: 30%;box-sizing: border-box;
+float: left;
+text-align: center;
+border-left: 1px solid #034361;
+border-top: 1px solid #034361;
+border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+margin-top: 25px;
+margin-right: 20px;}
+ #exTab1 .nav-pills > li.active > a{color: #fff;background-color: #034361;border-radius: 3;}
+ #a1 div ul li, #a2 div ul li{list-style-type: none;}
+ #a1 div:hover, #a2 div:hover{
+  border-bottom: 2px solid #034361;
+  border-right: 2px solid #034361;
+border-left: 1px solid #fff;
+border-top: 1px solid #fff;}
 /************************************************************Services Page*************************************************************/
 
 /***********************************mobile menu**********************/
