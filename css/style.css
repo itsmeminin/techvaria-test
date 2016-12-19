@@ -299,10 +299,10 @@ button.snip0047.blue {
 .megamenu img{width:100px; }
 #section2 ul{display: block;}
 #section2 div{display: none;}
-#aboutUsMain a, #servicesMain a{color: #060606;}
+#aboutUsMain a, #servicesMain a, #trainingMain a, #industriesMain a, #careersMain a, #contactUsMain a{color: #060606;}
 /************************************************************AboutUs Page*************************************************************/
 #aboutUsMain{background-image: url("../images/about_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
-#aboutUsMain h2{color: #fff;}
+#aboutUsMain h2{color: #fff;margin-top: 10%;}
 #aboutUsMain .container .row{height: 325px;}
 .navButton{width: 16.66%;background-color: #f0f0f0;
     text-align: center;
@@ -311,11 +311,11 @@ button.snip0047.blue {
     border-radius: 3px;
     margin-top: 8%;}
 #aboutVideo{margin-top: 25px;}
-#aboutVideo p{color: #000;text-align: justify;}
+#aboutVideo p,#trainings p, #industries p, #contactUs p{color: #000;text-align: justify;}
 #embededVideo{width:40%;padding-right: 6px;border-right: 3px solid #034361;float:left;box-sizing: border-box;}
 #embededVideoText{width:60%;float:left;box-sizing: border-box;padding-left: 15px;}
 #aboutVideo button, #serviceSideTab button{width:100%;border-radius: 0;margin-top: 8%;margin-bottom: 6%;}
-#aboutVideo h4{color: #000;}
+#aboutVideo h4, #trainings h4, #industries h4, #careers h4{color: #000;}
 #Download{border: 1px solid black;padding: 30px;}
 .photo{box-sizing: border-box;padding-top: 25px; }
 .photo img{float: left;width: 45%;padding-right: 15px;}
@@ -326,7 +326,7 @@ button.snip0047.blue {
 
 /************************************************************Services Page*************************************************************/
 #servicesMain{background-image: url("../images/services_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
-#servicesMain h2{color: #fff;}
+#servicesMain h2{color: #fff;margin-top: 10%;}
 #servicesMain .container .row{height: 325px;}
 .nav-pills{background-color:transparent; }
 .nav-pills li a{color: #000;background-color: #f0f0f0;border-radius: 0;}
@@ -358,7 +358,121 @@ margin-right: 20px;}
   border-right: 2px solid #034361;
 border-left: 1px solid #fff;
 border-top: 1px solid #fff;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 15%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding:0;padding: 0px 0px;
+background-color: #fff;
+height: 265px;}
+.modal-body #knowMore .form-group{width: 100%;padding: 15px 15px 0px 15px;margin-bottom: 0px;}
+.modal-body #knowMore .form-group button{margin:0!important;}
+.modal-body #knowMore .form-group .form-control{height: 45px;}
 /************************************************************Services Page*************************************************************/
+
+/************************************************************training Page*************************************************************/
+#trainingMain{background-image: url("../images/training_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
+#trainingMain h2{color: #fff;margin-top: 10%;}
+#trainingMain .container .row{height: 325px;}
+#trainings .row{padding-bottom: 40px;}
+#trainings img{width:100%;}
+/************************************************************training Page*************************************************************/
+
+/************************************************************industries Page*************************************************************/
+#industriesMain{background-image: url("../images/industries_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
+#industriesMain h2{color: #fff;margin-top: 10%;}
+#industriesMain .container .row{height: 325px;}
+#industries .row{padding-bottom: 40px;}
+#industries{padding-top: 30px;}
+/************************************************************industries Page*************************************************************/
+
+/************************************************************Careers Page*************************************************************/
+#careersMain{background-image: url("../images/career_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
+#careersMain h2{color: #fff;margin-top: 10%;}
+#careersMain .container .row{height: 325px;}
+.minus, .minus1, .minus2, .minus3{display: none;float: left;}
+.plus, .plus1, .plus2, .plus3{float:left;}
+.readText{cursor: pointer;}
+.readText .fa{color: #c46428;border: 1px solid #c46428; padding: 2px; margin-right: 5px;padding: 2px;font-size: 10px;}
+#careers ul li{list-style-type: none;}
+#careers ul{padding-left: 30px;}
+#careers ul li .fa{margin-left: -15px;margin-left: -15px;font-size: 11px;color: #c46428;} 
+/************************************************************Careers Page*************************************************************/
+
+/************************************************************ContactUs Page*************************************************************/
+#contactUsMain{background-image: url("../images/contact_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
+#contactUsMain h2{color: #fff;margin-top: 10%;}
+#contactUsMain .container .row{height: 325px;}
+#contactUs{padding-top: 30px;}
+#contactUs .form-group{width: 100%; padding-left: 0;}
+#contactUs .form-control{height: 55px;}
+#contactUs form{margin-top: 50px;}
+.contactdiv div{width: 140px;height: 140px;border-radius: 50%;background-color: #f0f0f0;
+  text-align: center;vertical-align: middle;position: relative;margin: 0 auto;}
+.contactdiv p{text-align: center !important;}
+.contactdiv .fa{text-align: center;color: #c46428;font-size: 55px;margin-top: 30%;}
+#map{padding-bottom: 0px;}
+/************************************************************ContactUs Page*************************************************************/
+
 
 /***********************************mobile menu**********************/
 .nav .open > a, 
@@ -663,7 +777,7 @@ border-top: 1px solid #fff;}
 
 h1 {
     font-size: 48px;}
-.navButton{padding-top: 25px;padding-bottom: 25px;margin-top: 16%;}
+.navButton{padding-top: 25px;padding-bottom: 25px;margin-top: 8%;}
 /*******/
 }
 /****************************************End of Query************************************/
@@ -672,10 +786,15 @@ h1 {
 /*********************************Medium devices- laptops and small desktops********************************/
 @media only screen and (min-width: 992px) and (max-width: 1366px){
 
-#aboutUsMain, #servicesMain{margin-top: 6%;}
+#aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain{margin-top: 6%;}
 #w{display: block;}
 #x{display: none;}
-#aboutUsMain .container .row, #servicesMain .container .row{height: 233px;}
+#aboutUsMain .container .row, #servicesMain .container .row, #trainingMain .container .row,
+ #industriesMain .container .row, #careersMain .container .row, #contactUsMain .container .row{height: 233px;}
+.carousel-caption .btn{margin-right: 0;}
+#contactUsMain, #aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain, #contactUsMain{margin-top: 6%;}
+#contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2{margin-top: 7%;}
+.navButton{margin-top: 3%;}
 /*******/
 }
 /****************************************End of Query************************************/
@@ -727,7 +846,8 @@ body{font-size: 13px;}
 }
 .form-control{font-size: 11px;}
 #aboutUsMain, #servicesMain {margin-top: 17%;}
-#aboutUsMain .container .row, #servicesMain .container .row{height: 131px;}
+#aboutUsMain .container .row, #servicesMain .container .row, #trainingMain .container .row,
+ #careersMain .container .row, #contactUsMain .container .row{height: 131px;}
 label{font-size: 11px;}
 .navButton{text-align: center;
     padding-top: 15px;
@@ -753,6 +873,10 @@ label{font-size: 11px;}
 #nav2{display: none;}
 .pdf1{display: block;}
 .pdf2{display: none;}
+#a1 div, #a2 div{width: 45%;}
+.modal{padding-top: 30%;}
+.modal-content{width: 50%;}
+.modal-content h2{font-size:25px;}
 /*******/
 }
 
@@ -844,7 +968,7 @@ h2 {font-size: 28px;}
 }
 #aboutUs h2{margin-top: 20px;margin-bottom: 30px;}
 .form-group{width: 100%;margin-bottom: 22px;}
-#aboutUsMain, #servicesMain {
+#aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain, #contactUsMain {
     background-size: 150%;
     background-repeat: no-repeat;
     margin-top: 19%;
@@ -859,7 +983,8 @@ h2 {font-size: 28px;}
     display: block;
     width: 145px;margin-top: 15px;
 }
-#aboutUsMain .container .row, #servicesMain .container .row{
+#aboutUsMain .container .row, #servicesMain .container .row, #trainingMain .container .row,
+ #industriesMain .container .row, #careersMain .container .row, #contactUsMain .container .row{
     height: 100px;
 }
 #aboutVideo p {padding-top: 15px;}
@@ -876,7 +1001,10 @@ h2 {font-size: 28px;}
 .pdf2{display: block;}
 #sec1, #sec2, #sec3, #sec4, #sec5, #sec6 {
     padding-left: 0%;padding-top: 15px;}
-    #a1 div, #a2 div{width: 40%;}
+#a1 div, #a2 div{width: 100%;}
+.modal-content{width: 76%;}
+.modal-content h2{font-size:25px;}
+.modal{padding-top: 42%;}
 /*******/
 }
 /****************************************End of Query************************************/
