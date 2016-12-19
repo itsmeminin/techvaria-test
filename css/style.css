@@ -299,7 +299,7 @@ button.snip0047.blue {
 .megamenu img{width:100px; }
 #section2 ul{display: block;}
 #section2 div{display: none;}
-#aboutUsMain a, #servicesMain a, #trainingMain a, #industriesMain a, #careersMain a, #contactUsMain a{color: #060606;}
+#aboutUsMain a, #servicesMain a, #trainingMain a, #industriesMain a, #careersMain a, #contactUsMain a, #partnersMain a{color: #060606;}
 /************************************************************AboutUs Page*************************************************************/
 #aboutUsMain{background-image: url("../images/about_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
 #aboutUsMain h2{color: #fff;margin-top: 10%;}
@@ -371,7 +371,7 @@ border-top: 1px solid #fff;}
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -472,6 +472,16 @@ height: 265px;}
 .contactdiv .fa{text-align: center;color: #c46428;font-size: 55px;margin-top: 30%;}
 #map{padding-bottom: 0px;}
 /************************************************************ContactUs Page*************************************************************/
+
+/************************************************************Partners Page*************************************************************/
+#partnersMain{background-image: url("../images/partners_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
+#partnersMain h2{color: #fff;margin-top: 10%;}
+#partnersMain .container .row{height: 325px;}
+#partners img{padding-top: 20%;
+padding-bottom: 20%;
+border: 2px solid #b0b0b1;}
+#partners{padding-top: 30px;padding-bottom: 30px;}
+/************************************************************Partners Page*************************************************************/
 
 
 /***********************************mobile menu**********************/
@@ -786,14 +796,13 @@ h1 {
 /*********************************Medium devices- laptops and small desktops********************************/
 @media only screen and (min-width: 992px) and (max-width: 1366px){
 
-#aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain{margin-top: 6%;}
 #w{display: block;}
 #x{display: none;}
 #aboutUsMain .container .row, #servicesMain .container .row, #trainingMain .container .row,
- #industriesMain .container .row, #careersMain .container .row, #contactUsMain .container .row{height: 233px;}
+ #industriesMain .container .row, #careersMain .container .row, #contactUsMain .container .row, #partnersMain .container .row{height: 233px;}
 .carousel-caption .btn{margin-right: 0;}
-#contactUsMain, #aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain, #contactUsMain{margin-top: 6%;}
-#contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2{margin-top: 7%;}
+#contactUsMain, #aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain, #contactUsMain, #partnersMain{margin-top: 6%;}
+#contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2, #partnersMain h2{margin-top: 7%;}
 .navButton{margin-top: 3%;}
 /*******/
 }
@@ -845,14 +854,14 @@ body{font-size: 13px;}
     padding-left: 9%;
 }
 .form-control{font-size: 11px;}
-#aboutUsMain, #servicesMain {margin-top: 17%;}
+#aboutUsMain, #servicesMain, #trainingMain, #careersMain, #contactUsMain, #partnersMain, #industriesMain {margin-top: 17%;}
 #aboutUsMain .container .row, #servicesMain .container .row, #trainingMain .container .row,
- #careersMain .container .row, #contactUsMain .container .row{height: 131px;}
+ #careersMain .container .row, #contactUsMain .container .row, #partnersMain .container .row, #industriesMain .container .row{height: 131px;}
 label{font-size: 11px;}
 .navButton{text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 5%;}
+    margin-top: 2%;}
 #Download {
     padding: 18px;
 }
@@ -877,6 +886,7 @@ label{font-size: 11px;}
 .modal{padding-top: 30%;}
 .modal-content{width: 50%;}
 .modal-content h2{font-size:25px;}
+#contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2, #partnersMain h2{margin-top: 3%;}
 /*******/
 }
 
@@ -968,7 +978,7 @@ h2 {font-size: 28px;}
 }
 #aboutUs h2{margin-top: 20px;margin-bottom: 30px;}
 .form-group{width: 100%;margin-bottom: 22px;}
-#aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain, #contactUsMain {
+#aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain, #contactUsMain, #partnersMain{
     background-size: 150%;
     background-repeat: no-repeat;
     margin-top: 19%;
@@ -984,7 +994,7 @@ h2 {font-size: 28px;}
     width: 145px;margin-top: 15px;
 }
 #aboutUsMain .container .row, #servicesMain .container .row, #trainingMain .container .row,
- #industriesMain .container .row, #careersMain .container .row, #contactUsMain .container .row{
+ #industriesMain .container .row, #careersMain .container .row, #contactUsMain .container .row, #partnersMain .container .row{
     height: 100px;
 }
 #aboutVideo p {padding-top: 15px;}
@@ -1006,6 +1016,8 @@ h2 {font-size: 28px;}
 .modal-content h2{font-size:25px;}
 .modal{padding-top: 42%;}
 .navButton{width: 47.66%;}
+#contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2, #partnersMain h2{margin-top: 5%;}
+#partners img{margin-top: 20px;}
 /*******/
 }
 /****************************************End of Query************************************/
