@@ -215,3 +215,48 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+
+
+
+function readm() {
+ var x= document.getElementsByClassName("read_less");
+ x[0].style.display = "block";
+ var y= document.getElementsByClassName("read_more")
+ y[0].style.display = "none";
+}
+
+function readl() {
+ var x= document.getElementsByClassName("read_less");
+ x[0].style.display = "none";
+ var y= document.getElementsByClassName("read_more")
+ y[0].style.display = "block";
+}
+
+function readm1() {
+ var x= document.getElementsByClassName("read_less1");
+ x[0].style.display = "block";
+ var y= document.getElementsByClassName("read_more1")
+ y[0].style.display = "none";
+}
+
+function readl1() {
+ var x= document.getElementsByClassName("read_less1");
+ x[0].style.display = "none";
+ var y= document.getElementsByClassName("read_more1")
+ y[0].style.display = "block";
+}
+
+function readm2() {
+ var x= document.getElementsByClassName("read_less2");
+ x[0].style.display = "block";
+ var y= document.getElementsByClassName("read_more2")
+ y[0].style.display = "none";
+}
+
+function readl2() {
+ var x= document.getElementsByClassName("read_less2");
+ x[0].style.display = "none";
+ var y= document.getElementsByClassName("read_more2")
+ y[0].style.display = "block";
+}
