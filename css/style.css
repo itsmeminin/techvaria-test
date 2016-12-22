@@ -126,7 +126,7 @@ margin-bottom: 10%;}
     background-color: rgba(3,67,97,0.8);
     margin-top: 2px!important;
 }
-.megamenu li{background-color: transparent;}
+.megamenu li{background-color: transparent; width:11.11%;}
 .megamenu li a{background-color: #022231;  -webkit-transition: all 1s;
   transition: all 1s;}
 .megamenu li a .fa{color: #fff;font-size: 48px;}
@@ -155,7 +155,7 @@ color: #fff;
     color: #428bca;
     font-size: 18px;
 }
-.dropdown > .row{padding-right: 10%;padding-left: 10%;}
+.dropdown > .row{padding-right: 7%;padding-left: 7%;}
 .snip1135 {
   text-align: center;
   font-weight: 500;
@@ -334,7 +334,7 @@ button.snip0047.blue {
 .nav-pills li a{color: #000;background-color: #f0f0f0;border-radius: 0;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus,
  .nav-pills > li.active > a:hover{background-color: #f0f0f0;border-left:3px solid #034361;border-radius: 0;color: #000;}
- #sec1, #sec2, #sec3, #sec4, #sec5, #sec6{padding-left: 10%;-webkit-transition: all 1s;transition: all 1s;}
+ #sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9{padding-left: 10%;-webkit-transition: all 1s;transition: all 1s;}
  .tab-pane h4, .tab-pane p{color: #000;}
  #serviceSideTab{margin-top: 20px;}
  .tab-pane h4{margin-top: 30px;}

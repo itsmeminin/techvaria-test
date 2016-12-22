@@ -15,6 +15,9 @@ $(document).ready(function(){
         $("#tabs4").removeClass("active");
         $("#tabs5").removeClass("active");
         $("#tabs6").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs9").removeClass("active");
     });
     $("#pane2").click(function(){
         $("#tabs2").addClass("active");
@@ -23,6 +26,9 @@ $(document).ready(function(){
         $("#tabs4").removeClass("active");
         $("#tabs5").removeClass("active");
         $("#tabs6").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs9").removeClass("active");
     });
     $("#pane3").click(function(){
         $("#tabs3").addClass("active");
@@ -31,6 +37,9 @@ $(document).ready(function(){
         $("#tabs4").removeClass("active");
         $("#tabs5").removeClass("active");
         $("#tabs6").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs9").removeClass("active");
     });
     $("#pane4").click(function(){
         $("#tabs4").addClass("active");
@@ -39,6 +48,9 @@ $(document).ready(function(){
         $("#tabs1").removeClass("active");
         $("#tabs5").removeClass("active");
         $("#tabs6").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs9").removeClass("active");
     });
     $("#pane5").click(function(){
         $("#tabs5").addClass("active");
@@ -47,6 +59,9 @@ $(document).ready(function(){
         $("#tabs4").removeClass("active");
         $("#tabs1").removeClass("active");
         $("#tabs6").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs9").removeClass("active");
     });
     $("#pane6").click(function(){
         $("#tabs6").addClass("active");
@@ -55,6 +70,42 @@ $(document).ready(function(){
         $("#tabs4").removeClass("active");
         $("#tabs5").removeClass("active");
         $("#tabs1").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs9").removeClass("active");
+    });
+    $("#pane7").click(function(){
+        $("#tabs7").addClass("active");
+         $("#tabs2").removeClass("active");
+        $("#tabs3").removeClass("active");
+        $("#tabs4").removeClass("active");
+        $("#tabs1").removeClass("active");
+        $("#tabs5").removeClass("active");
+        $("#tabs6").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs9").removeClass("active");
+    });
+    $("#pane8").click(function(){
+        $("#tabs8").addClass("active");
+         $("#tabs2").removeClass("active");
+        $("#tabs3").removeClass("active");
+        $("#tabs4").removeClass("active");
+        $("#tabs1").removeClass("active");
+        $("#tabs6").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs5").removeClass("active");
+        $("#tabs9").removeClass("active");
+    });
+    $("#pane9").click(function(){
+        $("#tabs9").addClass("active");
+         $("#tabs2").removeClass("active");
+        $("#tabs3").removeClass("active");
+        $("#tabs4").removeClass("active");
+        $("#tabs1").removeClass("active");
+        $("#tabs6").removeClass("active");
+        $("#tabs7").removeClass("active");
+        $("#tabs8").removeClass("active");
+        $("#tabs5").removeClass("active");
     });
 });
 
