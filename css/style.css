@@ -809,6 +809,16 @@ h1 {
 #contactUsMain, #aboutUsMain, #servicesMain, #trainingMain, #industriesMain, #careersMain, #contactUsMain, #partnersMain{margin-top: 6%;}
 #contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2, #partnersMain h2{margin-top: 7%;}
 .navButton{margin-top: 3%;}
+.dropdown > .row {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.megamenu li{padding-left: 2px;}
+.megamenu li a{padding: 0px;
+padding-top: 15px;
+padding-bottom: 15px;font-size: 13px;}
+.megamenu li a .fa {font-size: 34px;
+}
 /*******/
 }
 /****************************************End of Query************************************/
@@ -892,6 +902,13 @@ label{font-size: 11px;}
 .modal-content{width: 50%;}
 .modal-content h2{font-size:25px;}
 #contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2, #partnersMain h2{margin-top: 3%;}
+.megamenu li a {
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 124px;
+    font-size: 13px;
+}
 /*******/
 }
 
