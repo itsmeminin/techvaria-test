@@ -784,6 +784,7 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 #nav2{display: none;}
 .pdf1{display: block;}
 .pdf2{display: none;}
+.homeBox{width:26%;}
 /**********@media Queries***************@media Queries*******************@media Queries***********@media Queries********@media Queries**************/
 
 /*********************************Large devices- desktop********************************/
@@ -792,7 +793,6 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 h1 {
     font-size: 48px;}
 .navButton{padding-top: 25px;padding-bottom: 25px;margin-top: 8%;}
-.homeBox{width:26%;}
 /*******/
 }
 /****************************************End of Query************************************/
@@ -814,11 +814,8 @@ h1 {
     padding-left: 2%;
 }
 .megamenu li{padding-left: 2px;}
-.megamenu li a{padding: 0px;
-padding-top: 15px;
-padding-bottom: 15px;font-size: 13px;}
-.megamenu li a .fa {font-size: 34px;
-}
+.megamenu li a{padding: 0px;padding-top: 15px;padding-bottom: 15px;font-size: 13px;}
+.megamenu li a .fa {font-size: 34px;}
 .homeBox{width:30%;}
 /*******/
 }
@@ -911,6 +908,10 @@ label{font-size: 11px;}
     font-size: 13px;
 }
 .homeBox{width:48%;}
+.megamenu li {
+    width: 20%;
+    margin-bottom: 14px;
+}
 /*******/
 }
 
