@@ -784,11 +784,10 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 #nav2{display: none;}
 .pdf1{display: block;}
 .pdf2{display: none;}
-
 /**********@media Queries***************@media Queries*******************@media Queries***********@media Queries********@media Queries**************/
 
 /*********************************Large devices- desktop********************************/
-@media (min-width: 1366px){
+@media (min-width: 1367px){
 
 h1 {
     font-size: 48px;}
@@ -800,7 +799,7 @@ h1 {
 
 
 /*********************************Medium devices- laptops and small desktops********************************/
-@media only screen and (min-width: 992px) and (max-width: 1365px){
+@media only screen and (min-width: 992px) and (max-width: 1366px){
 
 #w{display: block;}
 #x{display: none;}
