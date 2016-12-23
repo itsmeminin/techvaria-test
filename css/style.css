@@ -788,18 +788,19 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 /**********@media Queries***************@media Queries*******************@media Queries***********@media Queries********@media Queries**************/
 
 /*********************************Large devices- desktop********************************/
-@media (min-width: 1367px){
+@media (min-width: 1366px){
 
 h1 {
     font-size: 48px;}
 .navButton{padding-top: 25px;padding-bottom: 25px;margin-top: 8%;}
+.homeBox{width:26%;}
 /*******/
 }
 /****************************************End of Query************************************/
 
 
 /*********************************Medium devices- laptops and small desktops********************************/
-@media only screen and (min-width: 992px) and (max-width: 1366px){
+@media only screen and (min-width: 992px) and (max-width: 1365px){
 
 #w{display: block;}
 #x{display: none;}
@@ -819,6 +820,7 @@ padding-top: 15px;
 padding-bottom: 15px;font-size: 13px;}
 .megamenu li a .fa {font-size: 34px;
 }
+.homeBox{width:30%;}
 /*******/
 }
 /****************************************End of Query************************************/
