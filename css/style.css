@@ -799,6 +799,12 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 h1 {
     font-size: 48px;}
 .navButton{padding-top: 25px;padding-bottom: 25px;margin-top: 8%;}
+#aboutUs {
+    background-image: url("../images/about-us-image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /*******/
 }
 /****************************************End of Query************************************/
