@@ -296,7 +296,8 @@ button.snip0047.blue {
   background-color:transparent;
 }
 .dropdown-menu > .active > a:focus{background-color: #034361;!important; color: #fff;box-shadow: 5px 8px 10px 2px #151515;}
-.megamenu img{width:100px; }
+.megamenu img{width:50px; }
+.dropdown-menu{font-size: 13px;}
 #section2 ul{display: block;}
 #section2 div{display: none;}
 #ourServices{padding-bottom: 30px;}
@@ -530,7 +531,7 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 220px;
+    width: 240px;
     box-shadow: 5px 8px 10px 2px #151515;
 }
 
@@ -784,7 +785,11 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 #nav2{display: none;}
 .pdf1{display: block;}
 .pdf2{display: none;}
-.homeBox{width:26%;}
+.homeBox{width:23%;}
+.homeBox p{padding-left: 5%;padding-right: 7%;}
+#nav2 .dropdown-menu li{margin-top: 2px;}
+#nav2 .dropdown-menu li a:hover{border:2px solid #034361;}
+#nav2 .dropdown-menu > .active > a{background-color: transparent;color: #000;}
 /**********@media Queries***************@media Queries*******************@media Queries***********@media Queries********@media Queries**************/
 
 /*********************************Large devices- desktop********************************/
@@ -810,13 +815,17 @@ h1 {
 #contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2, #partnersMain h2{margin-top: 7%;}
 .navButton{margin-top: 3%;}
 .dropdown > .row {
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
 }
-.megamenu li{padding-left: 2px;}
+.megamenu li{padding-left: 0px;}
 .megamenu li a{padding: 0px;padding-top: 15px;padding-bottom: 15px;font-size: 13px;}
 .megamenu li a .fa {font-size: 34px;}
 .homeBox{width:30%;}
+.homeBox p {
+    padding-left: 8%;
+    padding-right: 9%;
+}
 /*******/
 }
 /****************************************End of Query************************************/
@@ -908,10 +917,13 @@ label{font-size: 11px;}
     font-size: 13px;
 }
 .homeBox{width:48%;}
+<<<<<<< HEAD
 .megamenu li {
     width: 20%;
     margin-bottom: 14px;
 }
+=======
+>>>>>>> cc23f42f3058a799e3833030f5236b0e6db10dcb
 /*******/
 }
 
@@ -1022,6 +1034,7 @@ h2 {font-size: 28px;}
  #industriesMain .container .row, #careersMain .container .row, #contactUsMain .container .row, #partnersMain .container .row{
     height: 100px;
 }
+#trainings{padding-top: 20px;}
 #aboutVideo p {padding-top: 15px;}
 #nav1{display: none;}
 #nav2{display: block;}
@@ -1034,7 +1047,7 @@ h2 {font-size: 28px;}
 #nav2 .dropdown-menu{width:78%;background-color: transparent;margin-left: 39px;}
 .pdf1{display: none;}
 .pdf2{display: block;}
-#sec1, #sec2, #sec3, #sec4, #sec5, #sec6 {
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9 {
     padding-left: 0%;padding-top: 15px;}
 #a1 div, #a2 div{width: 100%;}
 .modal-content{width: 76%;}
@@ -1043,6 +1056,10 @@ h2 {font-size: 28px;}
 .navButton{width: 47.66%;}
 #contactUsMain h2, #aboutUsMain h2, #servicesMain h2, #trainingMain h2, #industriesMain h2, #careersMain h2, #contactUsMain h2, #partnersMain h2{margin-top: 5%;}
 #partners img{margin-top: 20px;}
+.homeBox{width:83%;}
+.dropdown-menu > li > a:hover{box-shadow: none;}
+.navbar{border:none;}
+#WhatWeDo {margin-top:30px;}
 /*******/
 }
 /****************************************End of Query************************************/
